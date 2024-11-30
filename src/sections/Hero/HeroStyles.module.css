@@ -96,6 +96,7 @@
         justify-content: space-evenly;
         width: 100dvw;
         max-width: 100dvw;
+        margin-top: none;
 
         .hero {
             width: 350px;
@@ -112,6 +113,7 @@
     .container {
         width: 100dvw;
         max-width: 100dvw;
+        margin-top: none;
 
         .hero {
             width: 500px;
