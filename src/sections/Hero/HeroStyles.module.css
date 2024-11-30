@@ -1,0 +1,120 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvh;
+    min-height: 500px;
+    
+    .hero {
+        max-width: 270px;
+    }
+
+    span {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+
+        a {
+            margin: 0;
+
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    a {
+        width: fit-content;
+        align-self: center;
+    }
+
+    button {
+        background-color: var(--button-color);
+        color: var(--button-text-color);
+        border: none;
+        border-radius: 8px;
+        width: 125px;
+        height: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        box-shadow: 
+            1px 2px 4px rgba(var(--shadow-color), 0.4),
+            3px 6px 12px rgba(var(--shadow-color), 0.3),
+            6px 12px 24px rgba(var(--shadow-color), 0.25);
+        transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    }
+
+    button:hover {
+        transform: scale(1.04);
+    }
+
+    button:active {
+        transform: translateY(2px);
+        box-shadow:
+            0.5px 1px 2px rgba(var(--shadow-color), 0.4),
+            2px 3px 6px rgba(var(--shadow-color), 0.3),
+            3px 6px 12px rgba(var(--shadow-color), 0.25);
+    }
+
+    p {
+        max-width: 75dvw;
+    }
+}
+
+.darkModeContainer {
+    position: relative;
+}
+
+.darkMode {
+    position: absolute;
+    height: 4vh;
+}
+
+.darkMode:hover {
+    cursor: pointer;
+}
+
+.description {
+    max-width: 42ch;
+    align-self: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (width >= 800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100dvw;
+        max-width: 100dvw;
+
+        .hero {
+            width: 350px;
+            max-width: 350px;
+        }
+
+        p {
+            width: 40dvw;
+        }
+    }
+}
+
+@media (width >= 1400px) {
+    .container {
+        width: 100dvw;
+        max-width: 100dvw;
+
+        .hero {
+            width: 500px;
+            max-width: 500px;
+        }
+    }
+}
