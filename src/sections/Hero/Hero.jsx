@@ -74,16 +74,6 @@ function Hero() {
                             className='hover'
                         />
                     </a>
-                    <a
-                        href='https://www.instagram.com/_saintvalentine_'
-                        target='_blank'
-                    >
-                        <img
-                            alt='Instagram icon'
-                            src={instagramIcon}
-                            className='hover'
-                        />
-                    </a>
                 </span>
                 <p
                     className={styles.description}
