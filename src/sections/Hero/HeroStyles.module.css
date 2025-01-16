@@ -6,7 +6,8 @@
     text-align: center;
     height: 100dvh;
     min-height: 500px;
-    margin-bottom: 10dvh;
+    margin-bottom: 5dvh;
+    margin-top: 5dvh;
     
     .hero {
         max-width: 270px;
