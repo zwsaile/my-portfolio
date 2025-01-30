@@ -14,15 +14,8 @@ function Projects() {
             desc: 'Chartworks is a rich interactive charting experience all in the browser with zero plugins. Fully responsive so it looks great on any device. Add it to your site with just a few lines of JavaScript.',
             alt: 'A colorful logo of a line graph'
         },
-        wywhProj: {
-            link: 'https://github.com/zwsaile/wish-you-were-here-client',
-            pic: heartPic,
-            title: 'Wish You Were Here',
-            desc: 'Wish You Were Here leverages React, Websockets, HTML Canvas, and Node.js to allow users to create a collective virtual photo reminiscent of a class photograph, designed during a time when remote interaction was prevalent.',
-            alt: 'Blue and purple heart logo for the project Wish You Were Here'
-        },
         cliffProj: {
-            link: 'https://github.com/zwsaile/cliff-jumps',
+            link: 'https://cliff-jumps-2g9dv1ktw-zwsailes-projects.vercel.app/',
             pic: cliffPic,
             title: 'Send It',
             desc: 'Send It is responsive web application written with React and Node.js that offers adventurers and cliff divers a robust list of cliff diving spots across the U.S.A.',

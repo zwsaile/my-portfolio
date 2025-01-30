@@ -2,8 +2,6 @@ import styles from './HeroStyles.module.css'
 import profilePic from '../../assets/profile-pic.jpeg'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
-import instagramLight from '../../assets/instagram-light.png'
-import instagramDark from '../../assets/instagram-dark.png'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import githubLight from '../../assets/github-light.svg'
@@ -15,7 +13,6 @@ function Hero() {
     const {theme, toggleTheme} = useTheme();
 
     const themeIcon = theme === 'light' ? sun : moon;
-    const instagramIcon = theme === 'light' ? instagramLight : instagramDark;
     const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
     const githubIcon = theme === 'light' ? githubLight : githubDark;
 
@@ -78,7 +75,12 @@ function Hero() {
                 <p
                     className={styles.description}
                 >
-                    Full-stack Software Engineer with expertise in C#, JavaScript, and Node.js, specializing in building scalable web applications and backend services, with extensive experience in modern frontend frameworks like React and Vue.
+                    Full-stack Software Engineer with expertise in JavaScript, Node.js, and C#
+                </p> 
+                <p
+                    className={styles.description}
+                >   
+                    Specializing in building scalable web applications and backend services, with extensive experience in modern frontend frameworks like React and Vue.
                 </p>
                 <a
                     href={resume}
