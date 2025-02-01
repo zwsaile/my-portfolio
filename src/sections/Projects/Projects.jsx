@@ -15,7 +15,7 @@ function Projects() {
             alt: 'A colorful logo of a line graph'
         },
         cliffProj: {
-            link: 'https://cliff-jumps-2g9dv1ktw-zwsailes-projects.vercel.app/',
+            link: 'https://cliff-jumps.vercel.app/',
             pic: cliffPic,
             title: 'Send It',
             desc: 'Send It is responsive web application written with React and Node.js that offers adventurers and cliff divers a robust list of cliff diving spots across the U.S.A.',
