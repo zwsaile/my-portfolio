@@ -18,7 +18,7 @@ function Projects() {
             link: 'https://cliff-jumps.vercel.app/',
             pic: cliffPic,
             title: 'Send It',
-            desc: 'Send It is responsive web application written with React and Node.js that offers adventurers and cliff divers a robust list of cliff diving spots across the U.S.A.',
+            desc: 'Send It is responsive web application written with React, Node.js, and leverages the Google Maps API. It offers adventurers and cliff divers a robust list of cliff diving spots across the U.S.A.',
             alt: 'Red and wite logo of trees and a lake for cliff jumping project'
         }
     }
